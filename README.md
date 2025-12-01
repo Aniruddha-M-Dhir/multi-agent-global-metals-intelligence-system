@@ -65,6 +65,7 @@ The orchestrator prints a JSON-like intelligence report:
 }
 
 
+
 📊 What This Project Demonstrates
 This repository is designed for educational clarity rather than live data accuracy. It demonstrates:
 multi-agent orchestration
@@ -74,6 +75,7 @@ currency normalization logic
 trend and arbitrage analysis
 memory/state management
 evaluation and validation
+
 🧩 Extensions (Planned)
 If more time were available, future improvements could include:
 real API-based market prices
@@ -82,5 +84,6 @@ historical trend lines
 predictive modeling
 deployment on Cloud Run
 real-time alerts and notifications
+
 📜 License
 Open source; free to use for learning and experimentation.
