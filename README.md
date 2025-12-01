@@ -1,5 +1,6 @@
 Multi-Agent Global Precious Metals Intelligence System
 A multi-agent system that analyzes global precious metals prices (gold, silver, platinum) across multiple markets, normalizes them into any currency, detects trends, and highlights arbitrage-like opportunities. Built as a Capstone Project for the Google × Kaggle Agents Intensive.
+
 🏆 Overview
 Global precious metals prices vary between exchanges like New York, London, Shanghai, Dubai, and Mumbai. Each market uses different currencies and spreads, making comparisons difficult.
 This project demonstrates how an agentic system can:
@@ -9,6 +10,7 @@ analyze short-term price variation
 detect cross-market spreads
 produce a unified intelligence report
 It uses a clean, well-documented multi-agent architecture suitable for explanation and evaluation.
+
 🧠 Architecture
 This project uses five cooperating agents plus a memory and evaluation system:
 1. Orchestrator Agent
@@ -25,6 +27,7 @@ Memory Manager
 Stores basic preferences (preferred metal and currency).
 Evaluation Tool
 Validates structure and consistency of the final orchestrator output.
+
 📁 Project Structure
 src/
   orchestrator/
@@ -44,9 +47,11 @@ src/
     user_preferences.json
   evaluation/
     output_validator.py
+
 ▶️ How to Run
 1. Install dependencies
 pip install -r requirements.txt
+
 2. Run the orchestrator
 python src/orchestrator/orchestrator_agent.py
 3. Example output
@@ -58,6 +63,8 @@ The orchestrator prints a JSON-like intelligence report:
   "trend": {...},
   "arbitrage": {...}
 }
+
+
 📊 What This Project Demonstrates
 This repository is designed for educational clarity rather than live data accuracy. It demonstrates:
 multi-agent orchestration
