@@ -26,4 +26,10 @@ class ArbitrageAgent:
         spread_percent = round((spread / cheap_price) * 100, 2)
 
         return {
-
+            "cheapest_market": cheapest_market,
+            "cheapest_price": cheap_price,
+            "most_expensive_market": expensive_market,
+            "most_expensive_price": high_price,
+            "price_spread": spread,
+            "spread_percent": spread_percent
+        }
